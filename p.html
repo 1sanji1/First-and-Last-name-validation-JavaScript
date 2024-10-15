@@ -5,20 +5,24 @@
         <link rel="stylesheet" href="p.css">
     </head>
     <body>
-        <div>
-            <h1>DISE ROLE</h1>
+        <div id="container">
+            <h1>ENTER YOUR NAME</h1>
+            <lable class="textname">Enter your first name:</lable>
+            <input type="text" id="fname" placeholder="First name">
             <br>
-            Enter Number : <!-- <input type="number" placeholder="Number" id="input"> -->
+            <br>
+            <lable class="textname">Enter your last name:</lable>
+            <input type="text" id="lname" placeholder="Last name">
             <br>
             <br>
-            <button id="submit" >Submit</button>
-            <p  id="result">Your input is :</p>
+            <button type="submit" id="validate">Submit</button>
             <br>
-            <p id="imge"></p>
-            <br>
+            <p class="textname" id="output1"></p>
+            <p class="textname" id="output2"></p>
+            <p class="textname">*name validation with JavaScript getters and setters</p>
 
-        
         </div>
+
         <script src="p.js"></script>
     </body>
 </html>
